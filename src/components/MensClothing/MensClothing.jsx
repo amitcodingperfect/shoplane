@@ -3,6 +3,14 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ReactStars from "react-rating-stars-component";
 
+
+
+
+
+
+
+
+
 function MensClothing(props) {
   const{addToCart,addToFavorites,Favorite}=props
   const [MensClothing, setMensClothing] = useState([]);
